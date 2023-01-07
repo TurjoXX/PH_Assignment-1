@@ -92,6 +92,41 @@
     color: #737272;
 }
 
+
+/*Working with team part */
+.dev-team{
+    text-align: center;
+    color: #151414;
+    padding: 100px;
+}
+
+.section-title{
+    margin-bottom: 50px;
+    text-decoration:underline;
+}
+
+.team-container{
+    display: flex;
+    gap: 50px; 
+    margin-left: 250px;
+       
+}
+
+#img{
+    height: 200px;
+    width: 200px;
+}
+
+.name{
+    width: 270px;
+    height: 35px;
+    color: #151414;   
+}
+
+.skill-description{
+    color: #737272;
+}
+
 /*Working with Call-now part */
 .call-now{
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
@@ -128,40 +163,6 @@
     color: #F15B22;
     width: 88px;
     font-weight: 600;
-}
-
-/*Working with team part */
-.dev-team{
-    text-align: center;
-    color: #151414;
-    padding: 100px;
-}
-
-.section-title{
-    margin-bottom: 50px;
-    text-decoration:underline;
-}
-
-.team-container{
-    display: flex;
-    gap: 50px; 
-    margin-left: 250px;
-       
-}
-
-#img{
-    height: 200px;
-    width: 200px;
-}
-
-.name{
-    width: 270px;
-    height: 35px;
-    color: #151414;   
-}
-
-.skill-description{
-    color: #737272;
 }
 
 /*Working with last part */
