@@ -7,7 +7,7 @@
 .banner{
     text-align: right;
     padding: 100px 100px;
-    background-image: url(/images/banner/banner2.png);
+    background-image: url('/images/banner/banner2.png');
     background-repeat:no-repeat ;
     background-size:cover;
     background-position: left;
@@ -17,7 +17,6 @@
     font-weight: 700;
     font-size:30px;
     color: #151414;
-    /* border: 1px solid #000000; */
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 20px;
 }
@@ -25,7 +24,8 @@
 .banner-description{
     font-weight: 400;
     font-size: 16px;
-    color: #444343;    margin-bottom: 25px;
+    color: #444343;    
+    margin-bottom: 25px;
 }
 
 .banner-btn{
@@ -129,7 +129,7 @@
 
 /*Working with Call-now part */
 .call-now{
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(./images/watch.png);
     height: 200px;
     text-align: left;
     margin: 100px 230px;
